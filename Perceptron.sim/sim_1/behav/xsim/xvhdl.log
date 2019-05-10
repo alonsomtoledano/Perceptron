@@ -1,0 +1,4 @@
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/joseluis/Desktop/Perceptron/Perceptron.srcs/sources_1/new/sumador.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'sumador'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/joseluis/Desktop/Perceptron/Perceptron.srcs/sources_1/new/tb_sumador.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'tb_sumador'

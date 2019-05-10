@@ -1,0 +1,7 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../Perceptron.srcs/sources_1/new/sumador.vhd" \
+"../../../../Perceptron.srcs/sources_1/new/tb_sumador.vhd" \
+
+# Do not sort compile order
+nosort
