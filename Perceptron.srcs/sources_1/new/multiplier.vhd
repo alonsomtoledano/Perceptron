@@ -5,7 +5,7 @@ use IEEE.NUMERIC_STD.ALL;
 entity multiplier is
    port(
         X, W: in std_logic_vector(7 downto 0);
-        MUL: out std_logic_vector(7 downto 0)
+        MUL: out std_logic_vector(15 downto 0)
       );
 end entity multiplier;
 
