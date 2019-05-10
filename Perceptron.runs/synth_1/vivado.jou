@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2018.1 (64-bit)
+# SW Build 2188600 on Wed Apr  4 18:40:38 MDT 2018
+# IP Build 2185939 on Wed Apr  4 20:55:05 MDT 2018
+# Start of session at: Fri May 10 17:38:45 2019
+# Process ID: 18024
+# Current directory: C:/Xilinx/Projects/Perceptron/Perceptron.runs/synth_1
+# Command line: vivado.exe -log multiplier.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source multiplier.tcl
+# Log file: C:/Xilinx/Projects/Perceptron/Perceptron.runs/synth_1/multiplier.vds
+# Journal file: C:/Xilinx/Projects/Perceptron/Perceptron.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source multiplier.tcl -notrace
