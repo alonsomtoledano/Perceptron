@@ -14,7 +14,3 @@ architecture Behavioral of sumador is
 begin
     Y <= A + B;
 end Behavioral;
-
-
-		
-					
