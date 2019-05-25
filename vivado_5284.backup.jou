@@ -1,0 +1,19 @@
+#-----------------------------------------------------------
+# Vivado v2018.3 (64-bit)
+# SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+# IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+# Start of session at: Tue May 14 10:12:06 2019
+# Process ID: 5284
+# Current directory: C:/Users/joseluis/Desktop/Perceptron
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent2796 C:\Users\joseluis\Desktop\Perceptron\Perceptron.xpr
+# Log file: C:/Users/joseluis/Desktop/Perceptron/vivado.log
+# Journal file: C:/Users/joseluis/Desktop/Perceptron\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/joseluis/Desktop/Perceptron/Perceptron.xpr
+update_compile_order -fileset sources_1
+close [ open C:/Users/joseluis/Desktop/Perceptron/Perceptron.srcs/sources_1/new/comparator.vhd w ]
+add_files C:/Users/joseluis/Desktop/Perceptron/Perceptron.srcs/sources_1/new/comparator.vhd
+update_compile_order -fileset sources_1
+set_property needs_refresh false [get_runs synth_1]
+set_property needs_refresh false [get_runs impl_1]

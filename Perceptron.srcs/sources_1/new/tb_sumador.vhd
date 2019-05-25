@@ -9,18 +9,18 @@ end tb_sumador;
 architecture Behavioral of tb_sumador is
     component sumador is
         Port (
-            A, B: in unsigned(7 downto 0);
-            Y: out unsigned(7 downto 0)
+            A, B: in std_logic_vector(15 downto 0);
+            Y: out std_logic_vector(15 downto 0)
         );
     end component;
-    signal A, B: unsigned(7 downto 0);
-    signal Y: unsigned(7 downto 0);
+    signal A, B: std_logic_vector(15 downto 0);
+    signal Y: std_logic_vector(15 downto 0);
 begin
     DUT: sumador port map(A, B, Y);
     
     process begin
-        A <= "00000001";
-        B <= "00001000";
+        A <= "0000000000000001";
+        B <= "0000000000001000";
         wait for 10ns;
         wait;
     end process;

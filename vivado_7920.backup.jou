@@ -1,0 +1,47 @@
+#-----------------------------------------------------------
+# Vivado v2018.3 (64-bit)
+# SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+# IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+# Start of session at: Fri May 24 16:33:29 2019
+# Process ID: 7920
+# Current directory: C:/Users/joseluis/Desktop/Perceptron
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent10796 C:\Users\joseluis\Desktop\Perceptron\Perceptron.xpr
+# Log file: C:/Users/joseluis/Desktop/Perceptron/vivado.log
+# Journal file: C:/Users/joseluis/Desktop/Perceptron\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/joseluis/Desktop/Perceptron/Perceptron.xpr
+update_compile_order -fileset sources_1
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top tb_multiplier [current_fileset]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+update_compile_order -fileset sources_1
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top tb_multiplier [get_filesets sim_1]
+set_property top_lib xil_defaultlib [get_filesets sim_1]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+launch_simulation
+source tb_multiplier.tcl
+set_property needs_refresh false [get_runs synth_1]
+set_property needs_refresh false [get_runs impl_1]
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top tb_sumador [get_filesets sim_1]
+set_property top_lib xil_defaultlib [get_filesets sim_1]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+launch_simulation
+source tb_sumador.tcl
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top tb_comparator [get_filesets sim_1]
+set_property top_lib xil_defaultlib [get_filesets sim_1]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+launch_simulation
+close_sim
+close_sim
